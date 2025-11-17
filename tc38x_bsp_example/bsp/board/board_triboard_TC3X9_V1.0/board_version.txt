@@ -1,0 +1,12 @@
+BOARD FAMILY:
+
+    TriBoard TC3X9 V1.0
+
+UC SUPPORT:
+
+    TC399, TC389  (LFBGA-516 Package)
+    TC397, TC387  (LFBGA-292 Package)
+
+VERSION:
+
+    1.0    06.2020    First version

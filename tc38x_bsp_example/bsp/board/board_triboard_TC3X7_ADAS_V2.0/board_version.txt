@@ -1,0 +1,11 @@
+BOARD FAMILY:
+
+    TriBoard TC3X7 ADAS V2.0
+
+UC SUPPORT:
+
+    TC397 ADAS, TC357, TC337 ADAS, TC3A7  (LFBGA-292 ADAS Package)
+
+VERSION:
+
+    1.0    06.2020    First version

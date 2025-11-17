@@ -1,0 +1,11 @@
+BOARD FAMILY:
+
+    TriBoard TC377TX V1.X
+
+UC SUPPORT:
+
+    TC377TX  (LFBGA-292 ADAS Package)
+
+VERSION:
+
+    1.0    06.2020    First version

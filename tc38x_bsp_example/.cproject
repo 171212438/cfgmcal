@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.873903072">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.873903072" moduleId="org.eclipse.cdt.core.settings" name="_iROM_TC38X_TRIBOARD_TC3X9_V2_0">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.873903072" name="_iROM_TC38X_TRIBOARD_TC3X9_V2_0" parent="com.rt.hightec.buildsystem.tricore.new.configuration.excutable">
+					<folderInfo id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.873903072." name="/" resourcePath="">
+						<toolChain id="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable.758692257" name="TriCore Toolchain" superClass="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable">
+							<option id="com.rt.hightec.buildsystem.tricore.new.mcpu.1148652184" name="CPU type (-mcpu=&lt;value&gt;)" superClass="com.rt.hightec.buildsystem.tricore.new.mcpu" useByScannerDiscovery="false" value="com.rt.hightec.buildsystem.tricore.new.abstracttoolchain.hardwaretarget.mcu.type.tc38xx" valueType="enumerated"/>
+							<option id="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler.90739886" name="Do not use -mcpu option on command line (re-build required)" superClass="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler" value="true" valueType="boolean"/>
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps.1209634999" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps" valueType="stringList">
+								<listOptionValue builtIn="false" value="-mtc162"/>
+							</option>
+							<targetPlatform archList="TriCore" binaryParser="org.eclipse.cdt.core.ELF" id="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform.1063536529" isAbstract="false" name="Infineon\TC38xA Starterkit\TriBoard_TC38xA" superClass="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform"/>
+							<builder buildPath="${workspace_loc:/tc3xx_bsp_base_example}/Default" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder.2116788034" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder"/>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.cpp.832272315" name="TriCore C++ Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.258313086" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEFAULT"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.60728397" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;../h&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.c.2090836843" name="TriCore C Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.1876623962" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="TRIBOARD_TC3X9_V2_0"/>
+									<listOptionValue builtIn="false" value="__TC38XX__"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.390245666" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/bsp}&quot;"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization.1085560205" name="Optimization Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.code.optimization.none" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.537425216" name="Debug Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.2" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums.10661477" name="Do not allocate to an enum type only as many bytes as it needs (-fno-short-enums)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.1152371252" name="Compiler Input (C)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.246187975" name="TriCore Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler">
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath.1991526102" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath" useByScannerDiscovery="false"/>
+								<inputType id="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype.194185632" name="Assembler Input NO GUI" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.gtm.1765247914" name="TriCore GTM Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.gtm">
+								<option id="gtm.opion.include.path.1360709419" name="Include Paths" superClass="gtm.opion.include.path" useByScannerDiscovery="false"/>
+								<inputType id="gtm.input.1368815950" name="Assembler Input (mcs)" superClass="gtm.input"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.c.17230951" name="TriCore C Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.1917880700" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0.1382971983" name="Exclude startup code crt0.o (-nocrt0)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles.1915246884" name="Skip standard system startup files when linking (-nostartfiles)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.308826182" name="Assign input sections to the next output section, if the memory region is full (-Wl,--mem-holes)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan.372315166" name="Warn if mapping between an input section and an output section is missing (-Wl,--warn-orphan)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="abstract.tool.linker.warnings.no.warn.flags.2036955867" name="Do not warn about incompatible section flags (-Wl,--no-warn-flags)" superClass="abstract.tool.linker.warnings.no.warn.flags" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file.1836807407" name="Browse Linker Description File (-T)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file" useByScannerDiscovery="false" value="&quot;tc38xA_memory.ld&quot;" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath.309016188" name="Library search path (-L)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ld}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles.705609058" name="Object file order" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles" valueType="stringList">
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC377TX_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X2_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X3_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4L_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4T_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X5_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/bsp_board.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr_vector_table.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_traps_tc3.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/bsp_uc.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/uc_tc38/uc_tc38.o"/>
+									<listOptionValue builtIn="false" value="crt0/tc3x_crt0.o"/>
+									<listOptionValue builtIn="false" value="crt0/uc_tc38_bmhd.o"/>
+									<listOptionValue builtIn="false" value="src/shared_main.o"/>
+								</option>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input.1993184319" name="Abstract Linker Input NO GUI" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(ASM)"/>
+								</inputType>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.cpp.1237882224" name="TriCore C++ Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.2117658285" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.archiver.537301065" name="TriCore Archiver" superClass="com.rt.hightec.buildsystem.tricore.new.archiver"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.2.0.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.4.0.R0|bsp/uc/uc_tc35/_Reg_TC35X_UM_V1.2.0.R0|bsp/uc/uc_tc32/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc33/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc35/_Reg_TC35X_V2.5.1.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.2.0.R0|bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.1.0.R0|bsp/uc/uc_tc37/REG_TC37XED_UM_V1.1.0.R0|bsp/uc/uc_tc38/_Reg_TC38x_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39XB_UM_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39xA_V3.0.R0" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.202414494">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.202414494" moduleId="org.eclipse.cdt.core.settings" name="_iROM_TC38X_TRIBOARD_TC3X9_V1_0">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.202414494" name="_iROM_TC38X_TRIBOARD_TC3X9_V1_0" parent="com.rt.hightec.buildsystem.tricore.new.configuration.excutable">
+					<folderInfo id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.202414494." name="/" resourcePath="">
+						<toolChain id="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable.2081707181" name="TriCore Toolchain" superClass="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable">
+							<option id="com.rt.hightec.buildsystem.tricore.new.mcpu.1839042000" name="CPU type (-mcpu=&lt;value&gt;)" superClass="com.rt.hightec.buildsystem.tricore.new.mcpu" useByScannerDiscovery="false" value="com.rt.hightec.buildsystem.tricore.new.abstracttoolchain.hardwaretarget.mcu.type.tc38xx" valueType="enumerated"/>
+							<option id="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler.1817663618" name="Do not use -mcpu option on command line (re-build required)" superClass="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler" value="true" valueType="boolean"/>
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps.471340119" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps" valueType="stringList">
+								<listOptionValue builtIn="false" value="-mtc162"/>
+							</option>
+							<targetPlatform archList="TriCore" binaryParser="org.eclipse.cdt.core.ELF" id="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform.328598518" isAbstract="false" name="Infineon\TC38xA Starterkit\TriBoard_TC38xA" superClass="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform"/>
+							<builder buildPath="${workspace_loc:/tc3xx_bsp_base_example}/Default" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder.1410842502" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder"/>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.cpp.451117352" name="TriCore C++ Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.370622666" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEFAULT"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.1369476061" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;../h&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.c.150111901" name="TriCore C Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.1809310632" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="TRIBOARD_TC3X9_V1_0"/>
+									<listOptionValue builtIn="false" value="__TC38XX__"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.1208667664" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/bsp}&quot;"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization.1386937093" name="Optimization Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.code.optimization.none" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.828261292" name="Debug Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.2" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums.1376888710" name="Do not allocate to an enum type only as many bytes as it needs (-fno-short-enums)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.48499655" name="Compiler Input (C)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.1852850884" name="TriCore Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler">
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath.175344393" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath" useByScannerDiscovery="false"/>
+								<inputType id="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype.175345455" name="Assembler Input NO GUI" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.gtm.1724595630" name="TriCore GTM Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.gtm">
+								<option id="gtm.opion.include.path.1179582167" name="Include Paths" superClass="gtm.opion.include.path" useByScannerDiscovery="false"/>
+								<inputType id="gtm.input.1427978732" name="Assembler Input (mcs)" superClass="gtm.input"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.c.66016736" name="TriCore C Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.1227616014" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0.702362048" name="Exclude startup code crt0.o (-nocrt0)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles.781020052" name="Skip standard system startup files when linking (-nostartfiles)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.1913996539" name="Assign input sections to the next output section, if the memory region is full (-Wl,--mem-holes)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan.1548658735" name="Warn if mapping between an input section and an output section is missing (-Wl,--warn-orphan)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="abstract.tool.linker.warnings.no.warn.flags.810958336" name="Do not warn about incompatible section flags (-Wl,--no-warn-flags)" superClass="abstract.tool.linker.warnings.no.warn.flags" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file.1384148893" name="Browse Linker Description File (-T)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file" useByScannerDiscovery="false" value="&quot;tc38xA_memory.ld&quot;" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath.1634113737" name="Library search path (-L)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ld}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles.1818731077" name="Object file order" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles" valueType="stringList">
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC377TX_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X2_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X3_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4L_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4T_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X5_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/bsp_board.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr_vector_table.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_traps_tc3.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/bsp_uc.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/uc_tc38/uc_tc38.o"/>
+									<listOptionValue builtIn="false" value="crt0/tc3x_crt0.o"/>
+									<listOptionValue builtIn="false" value="crt0/uc_tc38_bmhd.o"/>
+									<listOptionValue builtIn="false" value="src/shared_main.o"/>
+								</option>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input.1329335368" name="Abstract Linker Input NO GUI" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(ASM)"/>
+								</inputType>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.cpp.1392084728" name="TriCore C++ Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.1581430132" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.archiver.1332742013" name="TriCore Archiver" superClass="com.rt.hightec.buildsystem.tricore.new.archiver"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.2.0.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.4.0.R0|bsp/uc/uc_tc35/_Reg_TC35X_UM_V1.2.0.R0|bsp/uc/uc_tc32/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc33/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc35/_Reg_TC35X_V2.5.1.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.2.0.R0|bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.1.0.R0|bsp/uc/uc_tc37/REG_TC37XED_UM_V1.1.0.R0|bsp/uc/uc_tc38/_Reg_TC38x_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39XB_UM_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39xA_V3.0.R0" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.2133900456">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.2133900456" moduleId="org.eclipse.cdt.core.settings" name="_iROM_TC38X_TRIBOARD_TC3X7_V2_0">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.2133900456" name="_iROM_TC38X_TRIBOARD_TC3X7_V2_0" parent="com.rt.hightec.buildsystem.tricore.new.configuration.excutable">
+					<folderInfo id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.2133900456." name="/" resourcePath="">
+						<toolChain id="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable.1228674517" name="TriCore Toolchain" superClass="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable">
+							<option id="com.rt.hightec.buildsystem.tricore.new.mcpu.1588759113" name="CPU type (-mcpu=&lt;value&gt;)" superClass="com.rt.hightec.buildsystem.tricore.new.mcpu" useByScannerDiscovery="false" value="com.rt.hightec.buildsystem.tricore.new.abstracttoolchain.hardwaretarget.mcu.type.tc38xx" valueType="enumerated"/>
+							<option id="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler.1540919101" name="Do not use -mcpu option on command line (re-build required)" superClass="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler" value="true" valueType="boolean"/>
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps.1001296955" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps" valueType="stringList">
+								<listOptionValue builtIn="false" value="-mtc162"/>
+							</option>
+							<targetPlatform archList="TriCore" binaryParser="org.eclipse.cdt.core.ELF" id="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform.2110798952" isAbstract="false" name="Infineon\TC38xA Starterkit\TriBoard_TC38xA" superClass="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform"/>
+							<builder buildPath="${workspace_loc:/tc3xx_bsp_base_example}/Default" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder.712094289" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder"/>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.cpp.543202036" name="TriCore C++ Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.927515487" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEFAULT"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.881299188" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;../h&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.c.1131229816" name="TriCore C Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.740891549" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="TRIBOARD_TC3X7_V2_0"/>
+									<listOptionValue builtIn="false" value="__TC38XX__"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.1898466000" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/bsp}&quot;"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization.491310613" name="Optimization Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.code.optimization.none" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.1005599621" name="Debug Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.2" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums.1258268039" name="Do not allocate to an enum type only as many bytes as it needs (-fno-short-enums)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.388818135" name="Compiler Input (C)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.1691390077" name="TriCore Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler">
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath.2035751502" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath" useByScannerDiscovery="false"/>
+								<inputType id="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype.1360616274" name="Assembler Input NO GUI" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.gtm.915222921" name="TriCore GTM Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.gtm">
+								<option id="gtm.opion.include.path.38323758" name="Include Paths" superClass="gtm.opion.include.path" useByScannerDiscovery="false"/>
+								<inputType id="gtm.input.624029972" name="Assembler Input (mcs)" superClass="gtm.input"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.c.243338687" name="TriCore C Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.1273702685" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0.1570259435" name="Exclude startup code crt0.o (-nocrt0)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles.1135775042" name="Skip standard system startup files when linking (-nostartfiles)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.398805305" name="Assign input sections to the next output section, if the memory region is full (-Wl,--mem-holes)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan.1155453936" name="Warn if mapping between an input section and an output section is missing (-Wl,--warn-orphan)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="abstract.tool.linker.warnings.no.warn.flags.257765381" name="Do not warn about incompatible section flags (-Wl,--no-warn-flags)" superClass="abstract.tool.linker.warnings.no.warn.flags" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file.964590171" name="Browse Linker Description File (-T)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file" useByScannerDiscovery="false" value="&quot;tc38xA_memory.ld&quot;" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath.142167150" name="Library search path (-L)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ld}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles.821284984" name="Object file order" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles" valueType="stringList">
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC377TX_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X2_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X3_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4L_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4T_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X5_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/bsp_board.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr_vector_table.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_traps_tc3.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/bsp_uc.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/uc_tc38/uc_tc38.o"/>
+									<listOptionValue builtIn="false" value="crt0/tc3x_crt0.o"/>
+									<listOptionValue builtIn="false" value="crt0/uc_tc38_bmhd.o"/>
+									<listOptionValue builtIn="false" value="src/shared_main.o"/>
+								</option>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input.2007023675" name="Abstract Linker Input NO GUI" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(ASM)"/>
+								</inputType>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.cpp.844365699" name="TriCore C++ Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.920170203" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.archiver.971400251" name="TriCore Archiver" superClass="com.rt.hightec.buildsystem.tricore.new.archiver"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.2.0.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.4.0.R0|bsp/uc/uc_tc35/_Reg_TC35X_UM_V1.2.0.R0|bsp/uc/uc_tc32/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc33/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc35/_Reg_TC35X_V2.5.1.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.2.0.R0|bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.1.0.R0|bsp/uc/uc_tc37/REG_TC37XED_UM_V1.1.0.R0|bsp/uc/uc_tc38/_Reg_TC38x_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39XB_UM_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39xA_V3.0.R0" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1379159002">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1379159002" moduleId="org.eclipse.cdt.core.settings" name="_iROM_TC38X_TRIBOARD_TC3X7_V1_0">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1379159002" name="_iROM_TC38X_TRIBOARD_TC3X7_V1_0" parent="com.rt.hightec.buildsystem.tricore.new.configuration.excutable">
+					<folderInfo id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1379159002." name="/" resourcePath="">
+						<toolChain id="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable.887978606" name="TriCore Toolchain" superClass="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable">
+							<option id="com.rt.hightec.buildsystem.tricore.new.mcpu.761552826" name="CPU type (-mcpu=&lt;value&gt;)" superClass="com.rt.hightec.buildsystem.tricore.new.mcpu" useByScannerDiscovery="false" value="com.rt.hightec.buildsystem.tricore.new.abstracttoolchain.hardwaretarget.mcu.type.tc38xx" valueType="enumerated"/>
+							<option id="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler.1378706948" name="Do not use -mcpu option on command line (re-build required)" superClass="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler" value="true" valueType="boolean"/>
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps.1354261469" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps" valueType="stringList">
+								<listOptionValue builtIn="false" value="-mtc162"/>
+							</option>
+							<targetPlatform archList="TriCore" binaryParser="org.eclipse.cdt.core.ELF" id="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform.222586961" isAbstract="false" name="Infineon\TC38xA Starterkit\TriBoard_TC38xA" superClass="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform"/>
+							<builder buildPath="${workspace_loc:/tc3xx_bsp_base_example}/Default" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder.1951889060" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder"/>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.cpp.1376565505" name="TriCore C++ Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.1536416212" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEFAULT"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.530331500" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;../h&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.c.107683596" name="TriCore C Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.1391890221" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="TRIBOARD_TC3X7_V1_0"/>
+									<listOptionValue builtIn="false" value="__TC38XX__"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.251901937" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/bsp}&quot;"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization.560793476" name="Optimization Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.code.optimization.none" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.1363947816" name="Debug Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.2" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums.272128939" name="Do not allocate to an enum type only as many bytes as it needs (-fno-short-enums)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.1315850666" name="Compiler Input (C)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.189383008" name="TriCore Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler">
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath.394464687" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath" useByScannerDiscovery="false"/>
+								<inputType id="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype.1018332328" name="Assembler Input NO GUI" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.gtm.80224620" name="TriCore GTM Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.gtm">
+								<option id="gtm.opion.include.path.277004918" name="Include Paths" superClass="gtm.opion.include.path" useByScannerDiscovery="false"/>
+								<inputType id="gtm.input.1279072785" name="Assembler Input (mcs)" superClass="gtm.input"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.c.1826923208" name="TriCore C Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.992539600" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0.130918721" name="Exclude startup code crt0.o (-nocrt0)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles.1377572129" name="Skip standard system startup files when linking (-nostartfiles)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.9991545" name="Assign input sections to the next output section, if the memory region is full (-Wl,--mem-holes)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan.1134708077" name="Warn if mapping between an input section and an output section is missing (-Wl,--warn-orphan)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="abstract.tool.linker.warnings.no.warn.flags.457776848" name="Do not warn about incompatible section flags (-Wl,--no-warn-flags)" superClass="abstract.tool.linker.warnings.no.warn.flags" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file.784185186" name="Browse Linker Description File (-T)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file" useByScannerDiscovery="false" value="&quot;tc38xA_memory.ld&quot;" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath.1128124056" name="Library search path (-L)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ld}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles.1816211437" name="Object file order" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles" valueType="stringList">
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC377TX_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X2_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X3_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4L_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4T_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X5_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/bsp_board.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr_vector_table.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_traps_tc3.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/bsp_uc.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/uc_tc38/uc_tc38.o"/>
+									<listOptionValue builtIn="false" value="crt0/tc3x_crt0.o"/>
+									<listOptionValue builtIn="false" value="crt0/uc_tc38_bmhd.o"/>
+									<listOptionValue builtIn="false" value="src/shared_main.o"/>
+								</option>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input.246330627" name="Abstract Linker Input NO GUI" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(ASM)"/>
+								</inputType>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.cpp.13923190" name="TriCore C++ Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.1631085875" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.archiver.39595339" name="TriCore Archiver" superClass="com.rt.hightec.buildsystem.tricore.new.archiver"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.2.0.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.4.0.R0|bsp/uc/uc_tc35/_Reg_TC35X_UM_V1.2.0.R0|bsp/uc/uc_tc32/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc33/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc35/_Reg_TC35X_V2.5.1.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.2.0.R0|bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.1.0.R0|bsp/uc/uc_tc37/REG_TC37XED_UM_V1.1.0.R0|bsp/uc/uc_tc38/_Reg_TC38x_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39XB_UM_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39xA_V3.0.R0" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1608079525">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1608079525" moduleId="org.eclipse.cdt.core.settings" name="_iROM_TC38X_APPKIT_TC3X7_V2_0">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1608079525" name="_iROM_TC38X_APPKIT_TC3X7_V2_0" parent="com.rt.hightec.buildsystem.tricore.new.configuration.excutable">
+					<folderInfo id="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1608079525." name="/" resourcePath="">
+						<toolChain id="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable.162487907" name="TriCore Toolchain" superClass="com.rt.hightec.buildsystem.tricore.new.toolchain.new.executable">
+							<option id="com.rt.hightec.buildsystem.tricore.new.mcpu.1442819241" name="CPU type (-mcpu=&lt;value&gt;)" superClass="com.rt.hightec.buildsystem.tricore.new.mcpu" useByScannerDiscovery="false" value="com.rt.hightec.buildsystem.tricore.new.abstracttoolchain.hardwaretarget.mcu.type.tc38xx" valueType="enumerated"/>
+							<option id="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler.892877734" name="Do not use -mcpu option on command line (re-build required)" superClass="com.rt.hightec.framework.buildsystem.tricore.toolchain.mcpu.bypasscmd.enabler" value="true" valueType="boolean"/>
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps.9161125" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.toolchain.new.hardwaretarget.globalOps" valueType="stringList">
+								<listOptionValue builtIn="false" value="-mtc162"/>
+							</option>
+							<targetPlatform archList="TriCore" binaryParser="org.eclipse.cdt.core.ELF" id="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform.235275660" isAbstract="false" name="Infineon\TC38xA Application Kit\AppKit_TC38xA" superClass="com.rt.hightec.buildsystem.tricore.new.excutable.targetplatform"/>
+							<builder buildPath="${workspace_loc:/tc3xx_bsp_base_example}/Default" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder.589956423" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.builder"/>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.cpp.46451048" name="TriCore C++ Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.2086824195" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEFAULT"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.301862304" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;../h&quot;"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.compiler.c.973192599" name="TriCore C Compiler" superClass="com.rt.hightec.buildsystem.tricore.new.compiler.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined.1780334227" name="Defined symbols (-D)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.symbols.defined" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="APPKIT_TC3X7_V2_0"/>
+									<listOptionValue builtIn="false" value="__TC38XX__"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths.1528042924" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/bsp}&quot;"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization.883370660" name="Optimization Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.optimization.optimization" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.code.optimization.none" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.61169827" name="Debug Level" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info" useByScannerDiscovery="false" value="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.debug.info.2" valueType="enumerated"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums.803707469" name="Do not allocate to an enum type only as many bytes as it needs (-fno-short-enums)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.general.fnoshortenums" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.647943219" name="Compiler Input (C)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.710393514" name="TriCore Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler">
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath.1435290192" name="Include Paths" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.assembler.general.includepath" useByScannerDiscovery="false"/>
+								<inputType id="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype.1097484677" name="Assembler Input NO GUI" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.inputtype"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.assembler.gtm.248453073" name="TriCore GTM Assembler" superClass="com.rt.hightec.buildsystem.tricore.new.assembler.gtm">
+								<option id="gtm.opion.include.path.1665636982" name="Include Paths" superClass="gtm.opion.include.path" useByScannerDiscovery="false"/>
+								<inputType id="gtm.input.2098734818" name="Assembler Input (mcs)" superClass="gtm.input"/>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.c.1900489348" name="TriCore C Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.676433467" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0.1543130956" name="Exclude startup code crt0.o (-nocrt0)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.noctr0" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles.568281093" name="Skip standard system startup files when linking (-nostartfiles)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.nostartfiles" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.1553402776" name="Assign input sections to the next output section, if the memory region is full (-Wl,--mem-holes)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan.1250819329" name="Warn if mapping between an input section and an output section is missing (-Wl,--warn-orphan)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.memholes.warn.orphan" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="abstract.tool.linker.warnings.no.warn.flags.412331574" name="Do not warn about incompatible section flags (-Wl,--no-warn-flags)" superClass="abstract.tool.linker.warnings.no.warn.flags" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file.1384222635" name="Browse Linker Description File (-T)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.file" useByScannerDiscovery="false" value="&quot;tc38xA_memory.ld&quot;" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath.1741742637" name="Library search path (-L)" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.lib.Includepath" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ld}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles.197452503" name="Object file order" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.general.description.objectFiles" valueType="stringList">
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_appkit_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC377TX_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X2_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X3_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4L_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X4T_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X5_V1.X/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X6_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_ADAS_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X7_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V1.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/board_triboard_TC3X9_V2.0/board.o"/>
+									<listOptionValue builtIn="false" value="bsp/board/bsp_board.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_isr_vector_table.o"/>
+									<listOptionValue builtIn="false" value="bsp/isr/bsp_traps_tc3.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/bsp_uc.o"/>
+									<listOptionValue builtIn="false" value="bsp/uc/uc_tc38/uc_tc38.o"/>
+									<listOptionValue builtIn="false" value="crt0/tc3x_crt0.o"/>
+									<listOptionValue builtIn="false" value="crt0/uc_tc38_bmhd.o"/>
+									<listOptionValue builtIn="false" value="src/shared_main.o"/>
+								</option>
+								<inputType id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input.109311740" name="Abstract Linker Input NO GUI" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+									<additionalInput kind="additionalinputdependency" paths="$(ASM)"/>
+								</inputType>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.linker.cpp.2125233602" name="TriCore C++ Linker" superClass="com.rt.hightec.buildsystem.tricore.new.linker.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options.1560355684" name="Other options" superClass="com.rt.hightec.framework.buildsystem.abstract.hightec.tool.linker.miscellaneous.options" valueType="stringList">
+									<listOptionValue builtIn="false" value="-Wl,-n"/>
+								</option>
+							</tool>
+							<tool id="com.rt.hightec.buildsystem.tricore.new.archiver.629393454" name="TriCore Archiver" superClass="com.rt.hightec.buildsystem.tricore.new.archiver"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.2.0.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.4.0.R0|bsp/uc/uc_tc35/_Reg_TC35X_UM_V1.2.0.R0|bsp/uc/uc_tc32/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc33/_Reg_TC33X32X_UM_V1.3.0.R1|bsp/uc/uc_tc35/_Reg_TC35X_V2.5.1.R0|bsp/uc/uc_tc36/REG_TC36XA_UM_V1.2.0.R0|bsp/uc/uc_tc37/REG_TC37XPD_UM_V1.1.0.R0|bsp/uc/uc_tc37/REG_TC37XED_UM_V1.1.0.R0|bsp/uc/uc_tc38/_Reg_TC38x_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39XB_UM_V1.1.0.R0|bsp/uc/uc_tc39/_Reg_TC39xA_V3.0.R0" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="tc3xx_bsp_base_example.com.rt.hightec.buildsystem.tricore.new.projectType.2141056069" name="TriCore Project" projectType="com.rt.hightec.buildsystem.tricore.new.projectType"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="_iROM_TC39X_TRIBOARD_TC3X7_ADAS_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC35X_TRIBOARD_TC3X7_ADAS_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC39X_TRIBOARD_TC3X7_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC36X_TRIBOARD_TC3X5_V1_X">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC33X_TRIBOARD_TC3X3_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC39X_TRIBOARD_TC3X7_ADAS_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC37X_TRIBOARD_TC377TX_V1_X">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC38X_TRIBOARD_TC3X9_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC32X_TRIBOARD_TC3X2_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC38X_TRIBOARD_TC3X9_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC37X_TRIBOARD_TC3X7_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC37X_TRIBOARD_TC3X7_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC39X_TRIBOARD_TC3X7_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC32X_TRIBOARD_TC3X7_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC35X_TRIBOARD_TC3X7_ADAS_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC32X_TRIBOARD_TC3X7_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC36X_TRIBOARD_TC3X6_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC39X_TRIBOARD_TC3X9_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC39X_TRIBOARD_TC3X9_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC39X_APPKIT_TC3X7_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC39X_APPKIT_TC3X7_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC36X_TRIBOARD_TC3X4L_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC38X_APPKIT_TC3X7_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC37X_APPKIT_TC3X7_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC32X_TRIBOARD_TC3X3_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC35X_TRIBOARD_TC3X6_ADAS_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC37X_APPKIT_TC3X7_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC33X_TRIBOARD_TC3X7_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC37X_TRIBOARD_TC3X5_V1_X">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC33X_TRIBOARD_TC3X4T_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC33X_TRIBOARD_TC3X7_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC39X_APPKIT_TC3X7_ADAS_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC38X_TRIBOARD_TC3X7_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC38X_TRIBOARD_TC3X7_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC33X_TRIBOARD_TC3X7_ADAS_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC33X_TRIBOARD_TC3X7_ADAS_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC39X_APPKIT_TC3X7_ADAS_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC36X_TRIBOARD_TC3X7_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC36X_TRIBOARD_TC3X7_V2_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC36X_TRIBOARD_TC3X6_ADAS_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC33X_TRIBOARD_TC3X2_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC32X_TRIBOARD_TC3X4T_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+		<configuration configurationName="_iROM_TC36X_TRIBOARD_TC3X4T_V1_0">
+			<resource resourceType="PROJECT" workspacePath="/tc38x_bsp_example"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="org.eclipse.cdt.core.g++"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="all" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="rebuild" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>rebuild</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1379159002;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1379159002.;com.rt.hightec.buildsystem.tricore.new.compiler.c.107683596;com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.1315850666">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.202414494;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.202414494.;com.rt.hightec.buildsystem.tricore.new.compiler.c.150111901;com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.48499655">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.873903072;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.873903072.;com.rt.hightec.buildsystem.tricore.new.assembler.gtm.1765247914;gtm.input.1368815950">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.2133900456;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.2133900456.;com.rt.hightec.buildsystem.tricore.new.assembler.gtm.915222921;gtm.input.624029972">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.;com.rt.hightec.buildsystem.tricore.new.assembler.gtm.1931084406;gtm.input.47049155">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.;com.rt.hightec.buildsystem.tricore.new.compiler.c.2137539909;com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.1762457564">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.873903072;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.873903072.;com.rt.hightec.buildsystem.tricore.new.compiler.c.2090836843;com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.1152371252">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1608079525;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1608079525.;com.rt.hightec.buildsystem.tricore.new.compiler.c.973192599;com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.647943219">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.202414494;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.202414494.;com.rt.hightec.buildsystem.tricore.new.assembler.gtm.1724595630;gtm.input.1427978732">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1608079525;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1608079525.;com.rt.hightec.buildsystem.tricore.new.assembler.gtm.248453073;gtm.input.2098734818">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.2133900456;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.2133900456.;com.rt.hightec.buildsystem.tricore.new.compiler.c.1131229816;com.rt.hightec.framework.buildsystem.abstract.hightec.tool.compiler.c.inputType.388818135">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1379159002;com.rt.hightec.buildsystem.tricore.new.configuration.excutable.43057000.1379159002.;com.rt.hightec.buildsystem.tricore.new.assembler.gtm.80224620;gtm.input.1279072785">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.rt.hightec.framework.buildsystem.HighTecGCCManagedMakePerProjectProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

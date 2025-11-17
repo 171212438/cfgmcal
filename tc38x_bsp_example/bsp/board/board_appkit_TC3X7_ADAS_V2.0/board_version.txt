@@ -1,0 +1,11 @@
+BOARD FAMILY:
+
+    AppKit TC3x7 ADAS V2.0
+
+UC SUPPORT:
+
+    TC397  (LFBGA-292 ADAS package)
+
+VERSION:
+
+    1.0    06.2020    First version

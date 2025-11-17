@@ -1,0 +1,42 @@
+==============================================================================
+TC38x BSP Example version history:
+------------------------------------------------------------------------------
+
+
+    1.0    06.2020    First version
+    1.1    01.2021    uC Derivative updated to v1.1
+    2.0    02.2021    BSP Base updated to v1.1
+    2.1    04.2021    Project settings '-mcpu=TC38XX' replaced by '-mtc162';
+                      added symbol __TC38XX__; target platform updated
+    2.2    05.2021    Fix of CMP reload value in shared_main.c
+
+==============================================================================
+
+
+BSP Base:
+
+    1.0    06.2020    First version
+    1.1    02.2021    crt0/tc3x_crt0 updated
+
+uC Derivative:
+
+    1.1 : tc38x
+
+Boards:
+
+    1.0 : TRIBOARD_TC3X9_V2_0
+    1.0 : TRIBOARD_TC3X9_V1_0
+    1.0 : TRIBOARD_TC3X7_V2_0
+    1.0 : TRIBOARD_TC3X7_V1_0
+    1.0 : APPKIT_TC3X7_V2_0
+
+Documentation:
+
+    1.0
+
+------------------------------------------------------------
+ The version history of the uC derivative and supported
+ boards can be found in the version.txt files located in
+ the respective folders. The documentation version history
+ can be found in the example Quick Guide.
+------------------------------------------------------------
