@@ -1,8 +1,0 @@
-FAMILY:
-
-    TC38x
-
-VERSION HISTORY:
-
-    1.0    06.2020    First version
-    1.1    01.2021    TC38x_RegCHeaders updated to version V1.5.0.R0
